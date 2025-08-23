@@ -1,0 +1,63 @@
+name: weather_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.0
+  icons_plus: ^5.0.0
+  provider: ^6.1.5
+  http: ^1.4.0
+  intl: ^0.20.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  lottie: ^3.3.1
+  flutter_map: ^8.2.1
+  latlong2: ^0.9.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svgs/reshot-icon-weather-X3N7PHUCLR.svg
+    - assets/svgs/sun-svgrepo-com.svg
+    - assets/svgs/sunrise-sunset-day-sea-sun-svgrepo-com.svg
+    - assets/svgs/sun-fog-svgrepo-com.svg
+    - assets/svgs/wind-svgrepo-com.svg
+    - assets/svgs/drop-svgrepo-com (1).svg
+    - assets/svgs/pressure-svgrepo-com.svg
+    - assets/svgs/sunrise-sunset-day-sea-sun-svgrepo-com.svg
+    - assets/images/noaa-1w3rdBTQJug-unsplash.jpg
+    - assets/images/rosalind-chang-Z4dSigcFgVw-unsplash.jpg
+    - assets/animations/Success Check.json
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/Nunito/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/Nunito/Nunito-SemiBold.ttf
+          weight: 500
+        - asset: assets/Nunito/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/Nunito/Nunito-ExtraBold.ttf
+          weight: 600
+        - asset: assets/Nunito/Nunito-ExtraLight.ttf
+          weight: 100
+        - asset: assets/Nunito/Nunito-Light.ttf
+          weight: 200
+        - asset: assets/Nunito/Nunito-Medium.ttf
+          weight: 300        
