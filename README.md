@@ -21,9 +21,11 @@ samples, guidance on mobile development, and a full API reference.
 
 Here are some sample screenshots of the app:
 
-![Screenshot 1](https://via.placeholder.com/300x600.png?text=App+Screenshot+1)  
-![Screenshot 2](https://via.placeholder.com/300x600.png?text=App+Screenshot+2)  
-![Screenshot 3](https://via.placeholder.com/300x600.png?text=App+Screenshot+3)  
+=======
+![Screenshot 1](images/Screenshot%20(144)%20copy.pngScreenshot (144) copy.png)  
+![Screenshot 2](images/Screenshot%20(145)%20copy.pngScreenshot (145) copy.png)  
+![Screenshot 3](images/Screenshot%20(146)%20copy.pngScreenshot (146) copy.png)  
+>>>>>>> 578906e (updated readme)
 
 ---
 
