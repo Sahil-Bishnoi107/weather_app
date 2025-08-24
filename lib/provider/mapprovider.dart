@@ -33,14 +33,13 @@ class MapProvider extends ChangeNotifier {
     state = geoData[0]['state'] ?? geoData[0]['country'] ?? "Unknown";
 
     // Step 2: Get weather forecast from Open-Meteo
-    final weatherUrl =
+    final weatherUrl = 
         "https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$long&daily=temperature_2m_max,temperature_2m_min,weather_code,uv_index_max&hourly=temperature_2m&current=temperature_2m,wind_speed_10m,is_day,apparent_temperature,rain,relative_humidity_2m,showers,precipitation&timezone=auto";
 
     final response2 = await http.get(Uri.parse(weatherUrl));
     if (response2.statusCode == 200) {
       final data = jsonDecode(response2.body);
       currentWeather = WeatherInfo.fromJson(data, state ?? "Unknown");
-
       notifyListeners();
     }
   }
