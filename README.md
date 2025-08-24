@@ -1,6 +1,8 @@
-# weather_project
+# Weather Project
 
 A Weather App built using **Flutter** for the frontend and **ASP.NET** for the backend, containerized with **Docker** and deployed on **Render**.
+
+---
 
 ## Getting Started
 
@@ -21,11 +23,9 @@ samples, guidance on mobile development, and a full API reference.
 
 Here are some sample screenshots of the app:
 
-=======
-![Screenshot 1](images/Screenshot%20(144)%20copy.pngScreenshot (144) copy.png)  
-![Screenshot 2](images/Screenshot%20(145)%20copy.pngScreenshot (145) copy.png)  
-![Screenshot 3](images/Screenshot%20(146)%20copy.pngScreenshot (146) copy.png)  
->>>>>>> 578906e (updated readme)
+![Screenshot 1](images/Screenshot%20(144)%20copy.png)  
+![Screenshot 2](images/Screenshot%20(145)%20copy.png)  
+![Screenshot 3](images/Screenshot%20(146)%20copy.png)  
 
 ---
 
